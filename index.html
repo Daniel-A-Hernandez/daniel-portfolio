@@ -3,9 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <link rel="shortcut icon" href="assets/img/D.ico" type="image/x-icon">
   <title>Daniel — Portafolio</title>
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="Portafolio de Daniel, desarrollador frontend inspirado en el espacio y el diseño moderno.">
+  
 </head>
 <body>
   <div class="stars"></div>
@@ -13,7 +15,7 @@
 
   <div class="wrap">
     <header>
-      <div class="logo">DanDev</div>
+      <div class="logo"><img src="assets/img/Group 6.ico" alt=""></div>
       <nav>
         <a href="https://github.com/Daniel-A-Hernandez" target="_blank">GitHub</a>
         <a href="" target="_blank">Linkedin</a>
@@ -22,7 +24,7 @@
 
     <section class="hero">
       <article class="intro">
-        <h1>Hola, soy Daniel</h1>
+        <h1>Daniel Hernández</h1>
         <p>Frontend Developer junior </p>
         <a href="#projects" class="btn">DESCARGAR CV</a>
       </article>
@@ -37,8 +39,18 @@
       <div class="project">
         <h3>Landing KEI</h3>
         <p>Proyecto creado para un desafío universitario latinoamericano, logrando el primer lugar en la sede de la Universidad Tecnológica de El Salvador.</p>
-        <a href="https://daniel-a-hernandez.github.io/codex-KEI/" target="_blankT">Visitar web</a>
+        <span class="links">
+          <a href="#" id="openDialog">Certificado</a>
+          <a href="https://github.com/Daniel-A-Hernandez/codex-KEI" target="_blank" >Repositorio</a>
+          <a href="https://daniel-a-hernandez.github.io/codex-KEI/" target="_blankT">Visitar web</a>
+        </span>
+        <dialog id="dialog">
+          <img src="assets/img/Certificado Daniel Alejandro Moreno Hernandez - document.pdf.png" alt="Certificado">
+          <button id="closeDialog">Cerrar</button>
+        </dialog>
       </div>
+
+
       <div class="project">
         <h3>Galería espacial</h3>
         <p>Galería de imágenes con sombras dinámicas y animaciones al hover, inspirada en nebulosas y constelaciones.</p>
@@ -54,32 +66,30 @@
     </section>
 
     <span class="titles"><h1>TECNOLOGIAS</h1></span>
- <section id="skills" class="skills">
-  <h2>Tecnologías</h2>
-  <div class="carousel">
-    <div class="slide-track">
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="filter: brightness(0) invert(1);"/></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+  <section id="skills" class="skills">
+   <div class="carousel">
+     <div class="slide-track">
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="filter: brightness(0) invert(1);"/></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
 
-      <!-- duplicadas para efecto infinito -->
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="filter: brightness(0) invert(1);"/></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
-      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
-    </div>
+       <!-- duplicadas para efecto infinito -->
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="filter: brightness(0) invert(1);"/></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
+       <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+     </div>
+   </div>
+  </section>
+
   </div>
-</section>
-    <footer>
-      
-    </footer>
-  </div>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
