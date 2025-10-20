@@ -1,0 +1,67 @@
+<section id="skills" class="skills">
+  <h2>Tecnologías</h2>
+  <div class="carousel">
+    <div class="slide-track">
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-white.svg" alt="GitHub"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+
+      <!-- duplicadas para efecto infinito -->
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-white.svg" alt="GitHub"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
+      <div class="slide"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+    </div>
+  </div>
+</section>
+
+<style>
+    body{
+        background-color: black;
+    }
+.skills {
+  margin-top: 4rem;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slide-track {
+  display: flex;
+  width: calc(200px * 14);
+  animation: scroll 3.5s linear infinite;
+}
+.slide {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.slide img {
+  width: 64px;
+  height: 64px;
+  opacity: 0.9;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.slide img:hover {
+  transform: scale(1.2);
+  opacity: 1;
+}
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+</style>
