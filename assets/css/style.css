@@ -27,12 +27,12 @@ body {
   display: block;
 }
 .stars {
-  background: transparent url(assets/img/stardust.png) repeat;
+  background: transparent url('/assets/img/stardust.png') repeat;
   animation: moveStars 200s linear infinite;
   z-index: 0;
 }
 .twinkling {
-  background: transparent url('https://www.transparenttextures.com/patterns/dark-mosaic.png') repeat;
+  background: transparent url('/assets/img/dark-mosaic.png') repeat;
   animation: twinkle 6s ease-in-out infinite alternate;
   z-index: 1;
 }
@@ -241,8 +241,6 @@ dialog img {
 
   
 }
-
-
 
 
 @media (max-width: 768px) {
