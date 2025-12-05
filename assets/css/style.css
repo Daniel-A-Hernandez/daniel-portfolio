@@ -83,6 +83,7 @@ h1 {
 }
 p { color: var(--muted); line-height: 1.6; 
     height: 120px;
+    padding: 5px  0px 0px 0px;
 }
 .btn {
   background: var(--grad);
