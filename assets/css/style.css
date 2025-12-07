@@ -78,25 +78,40 @@ nav a:first-child:hover{
 @keyframes fadeInUp { from {opacity: 0; transform: translateY(30px);} to {opacity: 1; transform: translateY(0);} }
 h1 {
     font-family: var(--f_poppins);
-    font-size: 2.2rem; 
+    font-size: 2rem; 
     margin-bottom: 0.5rem;
+    text-align: justify;
 }
 p { color: var(--muted); line-height: 1.6; 
     height: 120px;
     padding: 5px  0px 0px 0px;
+    text-align: left;
+    height: auto;
 }
-.btn {
-  background: var(--grad);
-  color: white;
-  padding: 10px 16px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: inline-block;
-  margin-top: 1rem;
-}
-.btn:hover { transform: scale(1.05); box-shadow: 0 0 20px rgba(124,58,237,0.5); }
+
+
+
+.btn {background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
+.btn{
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: inline-block;
+   text-decoration: none;
+   margin-top:3rem;
+   font-weight: 600;
+ }
+ .btn:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   transform: scale(1.02);
+   box-shadow: 0 0 10px rgba(124,58,237,0.5);
+ }
+         
 .card {
   background: var(--card);
   padding: 1.5rem;
