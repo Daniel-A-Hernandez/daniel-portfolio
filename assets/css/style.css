@@ -80,12 +80,10 @@ h1 {
     font-family: var(--f_poppins);
     font-size: 2rem; 
     margin-bottom: 0.5rem;
-    text-align: justify;
 }
 p { color: var(--muted); line-height: 1.6; 
     height: 120px;
     padding: 5px  0px 0px 0px;
-    text-align: left;
     height: auto;
 }
 
